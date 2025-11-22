@@ -1,81 +1,154 @@
-# 🌸 **Shinzyx — Web Developer**
-
-### *Đẳng cấp • Sạch • Siêu ngầu • Chuẩn UI/UX • Tông Pink–Red*
-
----
-
 <div align="center">
 
-## 🔥 **Welcome to My World of Elegant Code**
+```
+███████╗██╗  ██╗██╗███╗   ██╗███████╗██╗   ██╗██╗  ██╗
+██╔════╝██║  ██║██║████╗  ██║╚══███╔╝╚██╗ ██╔╝╚██╗██╔╝
+███████╗███████║██║██╔██╗ ██║  ███╔╝  ╚████╔╝  ╚███╔╝ 
+╚════██║██╔══██║██║██║╚██╗██║ ███╔╝    ╚██╔╝   ██╔██╗ 
+███████║██║  ██║██║██║ ╚████║███████╗   ██║   ██╔╝ ██╗
+╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝
+```
 
-**Web Developer / UI–UX Enthusiast / Performance Lover**
+### `< Web Developer | Digital Architect | Code Artist />`
 
-💖 *Mang đến những sản phẩm web hiện đại, mượt, tối ưu SEO, chuẩn clean-code & đậm chất thẩm mỹ.*
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Clean+Code+Enthusiast;UI%2FUX+Designer;Always+Learning+New+Tech)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## 🎨 **Phong Cách Coding**
+## `whoami`
 
-* 💎 **Clean Code** — Rõ ràng, đẹp, dễ mở rộng
-* 🚀 **Hiệu suất** — Tối ưu tốc độ & SEO
-* 🎭 **UI/UX Điêu Luyện** — Tông màu Pink–Red mạnh mẽ & sang trọng
-* 🧱 **BEM CSS / Components** — Mọi thứ đều chuẩn cấu trúc
-* 📐 **Pixel Perfect** — Tỉ mỉ từng chi tiết
-
----
-
-## 🛠️ **Kỹ Năng Chính**
-
-* **Frontend:** HTML5, CSS3, BEM, SCSS, Tailwind, JavaScript
-* **Framework:** React, Next.js
-* **Design System:** UI/UX, Atomic Design
-* **Build Tools:** Vite, Webpack
-* **Others:** SEO, Performance Optimization, Responsive Mastery
-
----
-
-## 🌈 **Tông Màu Chủ Đạo (Pink–Red Signature)**
-
-```scss
-$pink: #ff4fa3;
-$hotred: #ff003c;
-$softpink: #ffc7df;
-$darkred: #b3002d;
-$bg: #0f0f10;
+```javascript
+const shinzyx = {
+    code: ["JavaScript", "TypeScript", "Python", "PHP"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Next.js", "Vue"],
+            css: ["Tailwind", "SASS", "Styled-Components"]
+        },
+        backEnd: {
+            js: ["Node", "Express", "NestJS"],
+            python: ["Django", "FastAPI"]
+        },
+        databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+        devOps: ["Docker", "AWS", "nginx", "GitHub Actions"]
+    },
+    currentFocus: "Building scalable web applications",
+    funFact: "I debug with console.log() and I'm not ashamed"
+};
 ```
 
 ---
 
-## 📁 **Featured Projects**
+## `cat skills.txt`
 
-### 🔥 **Digital Products Shop**
-
-Modern, tối ưu SEO, siêu sạch, UI/UX mượt.
-
-### 💻 **ShinUI — UI Components Library**
-
-Library UI tông Pink–Red, siêu đẹp, reusable.
-
-### 🚀 **Landing Pages Premium**
-
-Pixel-perfect, nhẹ, chuẩn marketing.
+```
+▰▰▰▰▰▰▰▰▰▰ JavaScript   95%
+▰▰▰▰▰▰▰▰▰▱ TypeScript   90%
+▰▰▰▰▰▰▰▰▰▱ React.js     90%
+▰▰▰▰▰▰▰▰▱▱ Node.js      85%
+▰▰▰▰▰▰▰▰▱▱ Python       80%
+▰▰▰▰▰▰▰▰▰▱ UI/UX        90%
+```
 
 ---
 
-## 🌐 **Kết Nối**
+## `ls -la projects/`
 
-* 💼 Portfolio: *Đang cập nhật…*
-* 🐙 GitHub: **github.com/Shinzyx** (thay bằng link thật)
-* ✉️ Email: *[yourmail@example.com](mailto:yourmail@example.com)*
+<div align="center">
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| 🚀 **Portfolio V3** | Modern portfolio with smooth animations | Next.js, Framer Motion, Tailwind |
+| 💬 **ChatApp Pro** | Real-time messaging platform | Socket.io, React, MongoDB |
+| 🎨 **DesignHub** | UI component library | React, TypeScript, Storybook |
+| 🔐 **SecureAuth** | Authentication microservice | NestJS, JWT, PostgreSQL |
+
+</div>
+
+---
+
+## `tail -f github-stats.log`
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shinzyx&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=FFFFFF)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shinzyx&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Shinzyx&theme=radical&hide_border=true&background=0D1117&stroke=00F7FF&ring=00F7FF&fire=FF6B6B&currStreakLabel=00F7FF)
+
+</div>
+
+---
+
+## `ping -c 5 shinzyx.dev`
+
+<div align="center">
+
+[![Website](https://img.shields.io/badge/Website-00F7FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-website.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+
+</div>
+
+---
+
+## `echo $QUOTE`
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════╗
+║  "Code is like humor. When you have to   ║
+║   explain it, it's bad." - Cory House    ║
+╚═══════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+## `htop | grep activity`
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shinzyx&custom_title=Shinzyx's%20Contribution%20Graph&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area_color=00F7FF&area=true&hide_border=true)
+
+</div>
+
+---
+
+## `./coffee.sh && code`
+
+<div align="center">
+
+```
+     )  (
+    (   ) )
+     ) ( (
+   _______)_
+.-'---------|  
+( C|/\/\/\/\/|
+ '-./\/\/\/\/|
+   '_________'
+    '-------'
+```
+
+**Thanks for visiting! Let's build something amazing together** 🚀
+
+![Visitor Count](https://profile-counter.glitch.me/Shinzyx/count.svg)
+
+</div>
 
 ---
 
 <div align="center">
 
-## 💖 **Cảm Ơn Bạn Đã Ghé Thăm!**
+**[⬆ Back to Top](#)**
 
-*Đẳng cấp tạo nên sự khác biệt — Coding là nghệ thuật.*
+*Made with* 💻 *and* ☕ *by Shinzyx*
 
 </div>
