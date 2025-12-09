@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <div class="site-header__left flex-center">
+          <button type="button" class="site-header__menu-btn btns" aria-label="Menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon-svg"
+              aria-hidden="true"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+          <a href="/" class="site-header__logo" aria-label="My Logo">
+            <h1>MyLogo</h1>
+          </a>
+        </div>
+        <div class="site-header__right flex-center">
+          <nav class="site-header__nav">
+            <div class="site-header__nav-top">
+              <a href="/" class="site-header__nav-logo">
+                <h1>MyLogo</h1>
+              </a>
+              <button type="button" class="site-header__close-btn" aria-label="Close Menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon-svg"
+                  aria-hidden="true"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+            <ul class="site-header__list-menu">
+              <li><a href="#Home">Trang Chủ</a></li>
+              <li><a href="#Home">Trang Chủ</a></li>
+              <li><a href="#Home">Trang Chủ</a></li>
+              <li><a href="#Home">Trang Chủ</a></li>
+              <li><a href="#Home">Trang Chủ</a></li>
+            </ul>
+          </nav>
+
+          <form class="search-form" role="search" method="get" action="/search">
+            <label for="search-input" class="sr-only">Search</label>
+
+            <div class="search-form__field">
+              <button type="submit" class="search-form__btn btns" aria-label="Submit">
+                <svg aria-hidden="true" class="search-form__icon icon-svg" viewBox="0 0 24 24">
+                  <path
+                    d="M15.5 15.5L19 19M10.5 17A6.5 6.5 0 1 1 17 10.5A6.5 6.5 0 0 1 10.5 17Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+
+              <input
+                id="search-input"
+                type="search"
+                name="q"
+                placeholder="Search..."
+                autocomplete="off"
+              />
+
+              <button type="button" class="search-form__close-btn btns" aria-label="Close Search">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon-svg"
+                  aria-hidden="true"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+          </form>
+
+          <button type="button" class="site-header__search-btn btns" aria-label="Search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon-svg"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <a href="#Cart" class="site-header__cart-btn btns" aria-label="Cart">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon-svg"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </a>
+          <a href="#Acc" class="site-header__acc-btn btns" aria-label="Account">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon-svg"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </header>
+    <main class="site-main"></main>
+    <script src="/main.js"></script>
+  </body>
+</html>

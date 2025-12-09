@@ -1,0 +1,546 @@
+/* reset.css — VIP-PRO clean reset (2025) */
+
+/* 1) Box sizing + inherit font/SVG */
+:root {
+  --root-font-size: 16px; /* thay đổi nếu muốn */
+  -webkit-tap-highlight-color: transparent;
+}
+html {
+  box-sizing: border-box;
+  font-size: var(--root-font-size);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* 2) Remove default spacing, borders, backgrounds */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font: inherit;
+  color: inherit;
+}
+
+/* 3) HTML5 display reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* 4) Body defaults */
+body {
+  line-height: 1.65;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f9fafb;
+  color: #111;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 5) Images, media */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6) Links */
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:focus {
+  outline: none;
+}
+
+/* 7) Lists */
+ol,
+ul {
+  list-style: none;
+}
+
+/* 8) Form elements — make them behave predictably */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button {
+  cursor: pointer;
+}
+
+/* 9) Buttons & inputs basic reset (use component styles later) */
+button:disabled,
+[disabled] {
+  cursor: default;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* 10) Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 11) Accessibility: focus-visible (only show outline for keyboard users) */
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 3px solid Highlight;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* 12) Respect user reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 13) Utility-ish sensible defaults (opinionated, remove if you don't want) */
+img[alt=''],
+img[role='presentation'] {
+  object-fit: cover;
+}
+textarea {
+  resize: vertical;
+}
+input::-ms-clear {
+  display: none;
+}
+
+/* 14) Base typography helpers (lightweight) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+/* 15) Root-level content width helper (optional) */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* End of reset.css */
+.btns {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 5px;
+  border-radius: 0.2rem; /* 8px */
+  border: none;
+  font-size: 0.9375rem; /* 15px */
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  background: none;
+  color: #111;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hover */
+.btns:hover {
+  background: #f5f5f7;
+}
+
+/* Active */
+.btns:active {
+  opacity: 0.9;
+}
+
+/* Disabled */
+.btns:disabled,
+.btns[disabled],
+.btns.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Focus ring — accessibility VIP-PRO */
+.btns:focus-visible {
+  outline: 3px solid rgba(0, 115, 255, 0.4);
+  outline-offset: 2px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body.locked {
+  overflow: hidden;
+  touch-action: none;
+}
+
+.icon-svg {
+  fill: none;
+  stroke-width: 1.8;
+  stroke: #7a7f8c;
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+.site-header {
+  background-color: #fff;
+  position: sticky;
+  width: 100%;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: solid 1px #e3e8ee;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 60px;
+}
+
+.site-header__left,
+.site-header__right {
+  gap: 0.55rem;
+}
+
+.site-header__logo {
+  display: inline-block;
+  background-color: red;
+}
+
+.site-header__nav {
+  position: fixed;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  width: 70%;
+  left: 0;
+  height: 100%;
+  top: 0;
+  z-index: 1002;
+  background-color: #fff;
+}
+
+.site-header__nav.open {
+  transform: translateX(0);
+}
+
+.site-header__list-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header__nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.site-header__list-menu li a {
+  display: block;
+  padding: 0.45rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.site-header__list-menu li a:hover {
+  background-color: #f5f5f7;
+  color: #e11d48;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Hide label but keep for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: 0.3s ease;
+  z-index: 1002;
+}
+
+.search-form.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Wrapper */
+.search-form__field {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  padding: 0 1rem;
+}
+
+/* Focus state container */
+/* .search-form__field:focus-within {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+} */
+
+/* Search icon */
+.search-form__icon {
+  width: 22px;
+  height: 22px;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+/* Input */
+.search-form input[type='search'] {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.95rem;
+  color: #111;
+  padding: 0.75rem 0;
+}
+
+/* Submit Button */
+.search-form__btn {
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+/* Hover */
+.search-form__btn:hover {
+  background: #1e48c4;
+}
+
+/* Active */
+.search-form__btn:active {
+  transform: scale(0.97);
+}
+
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+  .search-form input[type='search'] {
+    max-width: 100px;
+  }
+  .site-header__menu-btn,
+  .site-header__search-btn,
+  .search-form__close-btn {
+    display: none;
+  }
+  .search-form {
+    position: static;
+    width: auto;
+    background: #e3e8ee;
+    border-bottom: none;
+    border-radius: 999px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    padding: 0;
+    z-index: auto;
+  }
+  .search-form__field {
+    height: 35px;
+  }
+  .site-header__nav {
+    position: static;
+    transform: translateX(0);
+    width: auto;
+    height: auto;
+    background-color: transparent;
+  }
+  .site-header__nav-top {
+    display: none;
+  }
+  .site-header__list-menu {
+    flex-direction: row;
+  }
+  .site-header__list-menu li a {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+  }
+  .overlay {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+} /* lg */
+@media (min-width: 1280px) {
+} /* xl */
+@media (min-width: 1536px) {
+} /* 2xl */
